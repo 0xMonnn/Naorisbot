@@ -19,8 +19,19 @@
 1. **Clone Repository & Install Modul**:
    ```bash
    git clone https://github.com/0xMonnn/Naorisbot.git
-   cd Naorisbo
+   cd Naorisbot
    ```
+   ## Jika menemukan error
+  ```bash
+   python3 -m venv venv_naorisbot
+   ```
+     ```bash
+   source venv_naorisbot/bin/activate
+   ```
+     ```bash
+   pip install requests requests[socks] colorama pyjwt
+   ```
+   ## Jika tidak menemukan error langsung
    ```bash
    pip install requests requests[socks] colorama pyjwt
    ```
