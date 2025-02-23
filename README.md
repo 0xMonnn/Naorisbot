@@ -25,10 +25,10 @@
   ```bash
    python3 -m venv venv_naorisbot
    ```
-     ```bash
+  ```bash
    source venv_naorisbot/bin/activate
    ```
-     ```bash
+  ```bash
    pip install requests requests[socks] colorama pyjwt
    ```
    ## Jika tidak menemukan error langsung
