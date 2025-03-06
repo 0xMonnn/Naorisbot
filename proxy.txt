@@ -1,6 +1,3 @@
-http://username:password@host:port
-http://host:port
-socks4://username:password@host:port
-socks4://host:port
-socks5://username:password@host:port
-socks5://host:port
+ip:port # Default Protcol HTTP.
+protocol://ip:port
+protocol://user:pass@ip:port
